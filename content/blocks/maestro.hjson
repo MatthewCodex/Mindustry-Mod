@@ -1,0 +1,48 @@
+type: PowerTurret
+name: Maestro
+description: A precision turret that orchestrates devastating strikes with perfect timing.
+health: 320
+size: 2
+power: 3
+reload: 18
+range: 200
+shootY: 7
+inaccuracy: 5
+rotatespeed: 4
+shootType: standardCopper
+ammo: {
+  copper: {
+    speed: 4
+    damage: 12
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootMedium
+    smokeEffect: shootSmokeMedium
+    ammoMultiplier: 4
+  }
+  silver: {
+    speed: 5
+    damage: 18
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootMedium
+    smokeEffect: shootSmokeMedium
+    ammoMultiplier: 3
+  }
+  thorium: {
+    speed: 6
+    damage: 28
+    bulletWidth: 9
+    bulletHeight: 11
+    shootEffect: shootBig
+    smokeEffect: shootSmokeBig
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  silver/100
+  copper/150
+  electrum/50
+]
+category: turret
+research: silver-turret
