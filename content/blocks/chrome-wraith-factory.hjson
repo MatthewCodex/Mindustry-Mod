@@ -1,11 +1,11 @@
-name: Chrome Wraith Factory
-description: Makes Chrome Wraith units.
+name: Lawson Factory
+description: Makes Lawson units out of silicon and Rekotite.
 type: UnitFactory
 unitType: chrome-wraith
 size: 2
 produceTime: 350
 consumes: {
-  power: 0.5
+  power: 0.25
   items: {
     items: [
       silicon/10
